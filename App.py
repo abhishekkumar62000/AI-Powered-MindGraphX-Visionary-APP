@@ -217,7 +217,7 @@ def create_markmap_html(markdown_content):
     <head>
         <meta charset="UTF-8">
         <style>
-            #mindmap {{
+            #mindmap-container {{
                 width: 100%;
                 height: 800px;
                 margin: 20px auto;
@@ -226,27 +226,35 @@ def create_markmap_html(markdown_content):
                 border: 2px solid #ddd;
                 border-radius: 10px;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }}
+            #mindmap {{
+                width: 90%;
+                height: 90%;
             }}
         </style>
         <script src="https://cdn.jsdelivr.net/npm/d3@6"></script>
         <script src="https://cdn.jsdelivr.net/npm/markmap-view"></script>
         <script src="https://cdn.jsdelivr.net/npm/markmap-lib@0.14.3/dist/browser/index.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
     </head>
     <body>
         <div id="mindmap-container">
             <svg id="mindmap"></svg>
         </div>
         <button id="download-mindmap">Download Mindmap as PDF</button>
+
         <script>
             window.onload = async () => {{
                 try {{
                     const markdown = `{markdown_content}`;
                     const transformer = new markmap.Transformer();
-                    const {{root}} = transformer.transform(markdown);
+                    const {{ root }} = transformer.transform(markdown);
                     const mm = new markmap.Markmap(document.querySelector('#mindmap'), {{
-                        maxWidth: 300,
+                        maxWidth: 800,
                         color: (node) => {{
                             const level = node.depth;
                             return ['#2196f3', '#4caf50', '#ff9800', '#f44336'][level % 4];
@@ -265,18 +273,26 @@ def create_markmap_html(markdown_content):
             }};
             
             document.getElementById('download-mindmap').addEventListener('click', function() {{
-                html2canvas(document.getElementById('mindmap-container')).then(canvas => {{
-                    let imgData = canvas.toDataURL('image/png');
-                    let pdf = new jsPDF('l', 'mm', 'a4');
-                    pdf.addImage(imgData, 'PNG', 10, 10, 280, 150);
-                    pdf.save("mindmap.pdf");
-                }});
+                setTimeout(() => {{
+                    let mindmapElement = document.getElementById('mindmap-container');
+                    html2canvas(mindmapElement, {{
+                        scale: 2,  // Higher resolution
+                        useCORS: true
+                    }}).then(canvas => {{
+                        let imgData = canvas.toDataURL('image/png');
+                        let {{ jsPDF }} = window.jspdf;
+                        let pdf = new jsPDF('l', 'mm', 'a4');
+                        pdf.addImage(imgData, 'PNG', 10, 10, 280, 150);
+                        pdf.save("mindmap.pdf");
+                    }});
+                }}, 1000); // Delay to allow rendering
             }});
         </script>
     </body>
     </html>
     """
     return html_content
+
 
 def save_mindmap_as_image(html_content):
     options = Options()
