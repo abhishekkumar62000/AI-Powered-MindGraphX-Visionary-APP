@@ -1,4 +1,3 @@
-composio-crewai
 streamlit
 crewai
 langchain-openai
@@ -15,5 +14,3 @@ webdriver-manager
 textblob
 pdfkit
 xhtml2pdf
-jsPDF
-html2canvas
