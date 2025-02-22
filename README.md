@@ -1,5 +1,6 @@
-<div align="center">  
-                                                                                           
+![p1](https://github.com/user-attachments/assets/f5f5a5c9-0c98-49b9-b06d-a7d3bb71a158)
+
+<div align="center">                                                                       
 ![GitHub repo size](https://img.shields.io/github/repo-size/codeaashu/Word-Sprint)
   ![GitHub stars](https://img.shields.io/github/stars/codeaashu/Word-Sprint?style=social) 
   ![GitHub forks](https://img.shields.io/github/forks/codeaashu/Word-Sprint?style=social)
