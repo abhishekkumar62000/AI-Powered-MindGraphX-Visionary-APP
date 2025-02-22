@@ -1,2 +1,2 @@
 wkhtmltopdf
-chromium-chromedriver
+chromium-driver
