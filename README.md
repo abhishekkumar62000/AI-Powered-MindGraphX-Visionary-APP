@@ -11,7 +11,7 @@
   <br><a href="https://mindgraphx.streamlit.app/"><strong>✦🌟 Revolutionizing AI-Powered Mind Mapping!🧠 ✦</strong></a><br><br>
   
   ` AI Powered MindGraphX Visionary APP is an open-source innovation designed to transform how we visualize, analyze, and understand data. Whether you are a researcher, student, or professional, this app empowers you with AI-driven insights, interactive mind maps, and deep text analysis! 🚀. `<hr>
-  <img src="./AI.png"/>
+  <img src="./AI.png" width="500px"/>
 # 🚀✨ AI Powered MindGraphX Visionary APP 💡🧠
 
 <p align="center">
