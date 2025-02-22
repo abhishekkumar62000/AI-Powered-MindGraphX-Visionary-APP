@@ -1,8 +1,3 @@
-![p1](https://github.com/user-attachments/assets/f5f5a5c9-0c98-49b9-b06d-a7d3bb71a158)
-
-
-
-
 <div align="center">                                                                       
 ![GitHub repo size](https://img.shields.io/github/repo-size/codeaashu/Word-Sprint)
   ![GitHub stars](https://img.shields.io/github/stars/codeaashu/Word-Sprint?style=social) 
@@ -153,6 +148,11 @@ This project is licensed under <a href="./LICENSE">MIT</a>. <img width=2300/>
   [![BuyMeACoffee](https://img.buymeacoffee.com/button-api/?text=Buymeacoffee&emoji=&slug=codingstella&button_colour=FFDD00&font_colour=000000&font_family=Comic&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/abhishekkumar62000)
 
 </div>  
+
+
+
+![p1](https://github.com/user-attachments/assets/f5f5a5c9-0c98-49b9-b06d-a7d3bb71a158)
+
 
 `Don't forget to give A star to this repository ⭐`
 
