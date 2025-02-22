@@ -1,5 +1,4 @@
 <div align="center">   
-	\
 ![GitHub repo size](https://img.shields.io/github/repo-size/codeaashu/Word-Sprint)
 ![GitHub stars](https://img.shields.io/github/stars/codeaashu/Word-Sprint?style=social) 
 ![GitHub forks](https://img.shields.io/github/forks/codeaashu/Word-Sprint?style=social)
