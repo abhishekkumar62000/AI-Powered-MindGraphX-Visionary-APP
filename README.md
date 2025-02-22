@@ -11,7 +11,7 @@
   </a>
 </p>
 
-
+<div align="center">
 <hr>
   <h1 align="center">✦ Introducing to 🚨AI Powered MindGraphX Visionary APP💡🧠 ✦</h1>
   <img src="./LOGO.png" width="100px" />
