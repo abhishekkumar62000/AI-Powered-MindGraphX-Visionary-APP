@@ -1,8 +1,10 @@
-<div align="center">                                                                       
+<div align="center">   
+	\
 ![GitHub repo size](https://img.shields.io/github/repo-size/codeaashu/Word-Sprint)
-  ![GitHub stars](https://img.shields.io/github/stars/codeaashu/Word-Sprint?style=social) 
-  ![GitHub forks](https://img.shields.io/github/forks/codeaashu/Word-Sprint?style=social)
+![GitHub stars](https://img.shields.io/github/stars/codeaashu/Word-Sprint?style=social) 
+![GitHub forks](https://img.shields.io/github/forks/codeaashu/Word-Sprint?style=social)
 [![Twitter Follow](https://img.shields.io/twitter/follow/warrior_aashuu?style=social)](https://twitter.com/intent/follow?screen_name=warrior_aashuu)
+
 
 <hr>
   <h1 align="center">✦ Introducing to 🚨AI Powered MindGraphX Visionary APP💡🧠 ✦</h1>
