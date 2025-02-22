@@ -6,8 +6,8 @@
   <img src="https://img.shields.io/github/repo-size/codeaashu/Word-Sprint" alt="GitHub repo size">
   <img src="https://img.shields.io/github/stars/codeaashu/Word-Sprint?style=social" alt="GitHub stars">
   <img src="https://img.shields.io/github/forks/codeaashu/Word-Sprint?style=social" alt="GitHub forks">
-  <a href="https://twitter.com/intent/follow?screen_name=warrior_aashuu">
-    <img src="https://img.shields.io/twitter/follow/warrior_aashuu?style=social" alt="Twitter Follow">
+  <a href="https://twitter.com/intent/follow?screen_name=abhishek_kumar">
+    <img src="https://img.shields.io/twitter/follow/abhishek_kumar?style=social" alt="Twitter Follow">
   </a>
 </p>
 
