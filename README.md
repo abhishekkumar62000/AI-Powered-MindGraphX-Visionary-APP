@@ -1,10 +1,15 @@
 ![p1](https://github.com/user-attachments/assets/f5f5a5c9-0c98-49b9-b06d-a7d3bb71a158)
 
-<div align="center">   
-![GitHub repo size](https://img.shields.io/github/repo-size/codeaashu/Word-Sprint)
- ![GitHub stars](https://img.shields.io/github/stars/codeaashu/Word-Sprint?style=social) 
- ![GitHub forks](https://img.shields.io/github/forks/codeaashu/Word-Sprint?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/warrior_aashuu?style=social)](https://twitter.com/intent/follow?screen_name=warrior_aashuu)
+
+
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/codeaashu/Word-Sprint" alt="GitHub repo size">
+  <img src="https://img.shields.io/github/stars/codeaashu/Word-Sprint?style=social" alt="GitHub stars">
+  <img src="https://img.shields.io/github/forks/codeaashu/Word-Sprint?style=social" alt="GitHub forks">
+  <a href="https://twitter.com/intent/follow?screen_name=warrior_aashuu">
+    <img src="https://img.shields.io/twitter/follow/warrior_aashuu?style=social" alt="Twitter Follow">
+  </a>
+</p>
 
 
 <hr>
